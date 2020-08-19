@@ -1,13 +1,3 @@
-
-# from datetime import datetime
-# from threading import Timer
-
-# x=datetime.today()
-# y=x.replace(day=x.day, hour=22, minute=22, second=0, microsecond=0)
-# delta_t=y-x
-
-# secs=delta_t.seconds+1
-
 def  task():	
 	from selenium import webdriver
 	from selenium.webdriver.support.ui import WebDriverWait
@@ -72,6 +62,4 @@ def  task():
 
 task()
 
-# t = Timer(secs, task)
-# t.start()
 
